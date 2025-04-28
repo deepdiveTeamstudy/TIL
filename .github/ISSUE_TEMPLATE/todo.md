@@ -1,6 +1,6 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
+name: TODO
+about: todo
 title: ''
 labels: ''
 assignees: ''
