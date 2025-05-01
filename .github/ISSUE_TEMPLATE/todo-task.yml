@@ -1,0 +1,21 @@
+name: TODO Task
+description: 할 일 이슈를 관리하기 위한 템플릿입니다.
+title: "[TODO] [2025.00.00] OOO"
+labels: ["todo"]
+
+body:
+  - type: textarea
+    id: todo-details
+    attributes:
+      label: 할일 상세 내용
+      description: 해야 할 작업을 항목별로 구체적으로 작성해주세요.
+      value: |
+        ### 할일1
+        - [ ] 세부 항목 1
+        - [ ] 세부 항목 2
+
+        ### 할일2
+        - [ ] 세부 항목 1
+        - [ ] 세부 항목 2
+    validations:
+      required: true
